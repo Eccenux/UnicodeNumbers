@@ -26,6 +26,12 @@ public class UnicodeNumbers {
 		NegativeCircleFomatter fullFormatter = new NegativeCircleFomatter();
 		System.out.println(fullFormatter.format(1));
 		System.out.println(fullFormatter.format(11));
+		System.out.println(fullFormatter.format(20));
+
+		ParenthesizedFomatter bracketFormatter = new ParenthesizedFomatter();
+		System.out.println(bracketFormatter.format(1));
+		System.out.println(bracketFormatter.format(11));
+		System.out.println(bracketFormatter.format(20));
 	}
 
 }
