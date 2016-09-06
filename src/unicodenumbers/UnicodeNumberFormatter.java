@@ -18,7 +18,7 @@ abstract class UnicodeNumberFormatter {
 	abstract public String format (int number);
 
 	protected String unicode(int hex) {
-		return String.format("\\u%04X", hex);
+		return Character.toString((char)hex);
 	}
 
 	public boolean isSingleCharacter(int number) {
