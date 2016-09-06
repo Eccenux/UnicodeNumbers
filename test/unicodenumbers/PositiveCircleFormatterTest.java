@@ -71,8 +71,8 @@ public class PositiveCircleFormatterTest {
 	public void testFormatEdgeCharcters() {
 		System.out.println("format - edge cases");
 		PositiveCircleFormatter instance = new PositiveCircleFormatter();
-		edgeCasesMap.entrySet().stream().forEach((entry) -> {
+		for (Map.Entry<Integer, String> entry : edgeCasesMap.entrySet()) {
 			assertThat(instance.format(entry.getKey()), is(entry.getValue()));
-		});
+		}
 	}
 }
