@@ -7,8 +7,7 @@ package unicodenumbers;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import static org.hamcrest.core.Is.*;
-import static org.hamcrest.core.IsNot.*;
+import static org.hamcrest.CoreMatchers.*;
 
 /**
  *
