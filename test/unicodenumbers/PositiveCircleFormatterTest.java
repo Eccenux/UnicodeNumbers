@@ -40,7 +40,6 @@ public class PositiveCircleFormatterTest {
 	@Test
 	public void testFormatLength() {
 		System.out.println("format length");
-		int number = 0;
 		PositiveCircleFormatter instance = new PositiveCircleFormatter();
 		assertThat("lenght", instance.format(inRangeLowNumber).length(), is(1));
 		assertThat("lenght", instance.format(inRangeHighNumber).length(), is(1));
