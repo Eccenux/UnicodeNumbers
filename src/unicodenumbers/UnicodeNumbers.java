@@ -12,6 +12,11 @@ public class UnicodeNumbers {
 	 */
 	public static void main(String[] args) {
 		// TODO code application logic here
+		PositiveCircleFormatter formatter = new PositiveCircleFormatter();
+
+		System.out.println(formatter.isSingleCharacter(10));
+		System.out.println(formatter.isSingleCharacter(45));
+		System.out.println(formatter.format(10));
 	}
 
 }
