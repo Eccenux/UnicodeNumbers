@@ -28,7 +28,7 @@ Numbers that has single-character equivalent: 1-20.
 
 ```java
 ParenthesizedFomatter bracketFormatter = new ParenthesizedFomatter();
-		System.out.println(bracketFormatter.format(1)); // output: ⑴
+System.out.println(bracketFormatter.format(1)); // output: ⑴
 ```
 
 Copyright
