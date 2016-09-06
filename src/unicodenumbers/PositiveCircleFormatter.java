@@ -6,23 +6,9 @@ package unicodenumbers;
  * @author Maciej Nux Jaros
  */
 public class PositiveCircleFormatter extends UnicodeNumberFormatter {
-
-	private static final int minNumber = 0;
-	private static final int maxNumber = 50;
-
-	/**
-	 * @return the minNumber
-	 */
-	@Override
-	public int getMinNumber() {
-		return minNumber;
-	}
-	/**
-	 * @return the maxNumber
-	 */
-	@Override
-	public int getMaxNumber() {
-		return maxNumber;
+	public PositiveCircleFormatter() {
+		minNumber = 0;
+		maxNumber = 50;
 	}
 
 	@Override

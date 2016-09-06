@@ -6,8 +6,21 @@ package unicodenumbers;
  * @author Maciej Nux Jaros
  */
 abstract class UnicodeNumberFormatter {
-	abstract public int getMinNumber();
-	abstract public int getMaxNumber();
+	protected int minNumber = 0;
+	protected int maxNumber = 20;
+
+	/**
+	 * @return the minNumber
+	 */
+	public int getMinNumber() {
+		return minNumber;
+	}
+	/**
+	 * @return the maxNumber
+	 */
+	public int getMaxNumber() {
+		return maxNumber;
+	}
 
 	/**
 	 * Format supplied number.

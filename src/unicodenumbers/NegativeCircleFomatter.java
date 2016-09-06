@@ -6,25 +6,6 @@ package unicodenumbers;
  * @author Maciej Nux Jaros
  */
 public class NegativeCircleFomatter extends PositiveCircleFormatter {
-
-	private static final int minNumber = 0;
-	private static final int maxNumber = 20;
-
-	/**
-	 * @return the minNumber
-	 */
-	@Override
-	public int getMinNumber() {
-		return minNumber;
-	}
-	/**
-	 * @return the maxNumber
-	 */
-	@Override
-	public int getMaxNumber() {
-		return maxNumber;
-	}
-
 	@Override
 	public String format(int number) {
 		if (isSingleCharacter(number)) {
